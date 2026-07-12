@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of custom tattoos by Des Gracia — 20+ years in Kempner, Texas. Black & grey, color, and fine line work." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Portfolio | DesGracia Ink</title>
+
+  <meta property="og:title" content="Portfolio | DesGracia Ink" />
+  <meta property="og:description" content="Custom tattoo work by Des Gracia. Kempner, Texas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/gallery-05.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: {
+              950: '#050505',
+              900: '#0a0a0a',
+              800: '#111111',
+              700: '#1a1a1a',
+              600: '#242424',
+              500: '#333333',
+            },
+            blood: {
+              DEFAULT: '#c41e3a',
+              dark: '#9b1830',
+              light: '#e63950',
+            },
+            bone: '#f5f0e8',
+            ash: '#a3a3a3',
+          },
+          fontFamily: {
+            display: ['"Bebas Neue"', 'system-ui', 'sans-serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          letterSpacing: {
+            brand: '0.18em',
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-ink-900 text-bone font-sans antialiased overflow-x-hidden selection:bg-blood selection:text-bone">
+
+  <header id="site-header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 sm:h-20 items-center justify-between">
+        <a href="index.html" class="group flex items-center gap-2">
+          <span class="font-display text-2xl sm:text-3xl tracking-brand text-bone group-hover:text-blood transition-colors">
+            DESGRACIA<span class="text-blood">INK</span>
+          </span>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide uppercase text-ash">
+          <a href="portfolio.html" class="text-bone transition-colors">Portfolio</a>
+          <a href="index.html#styles" class="hover:text-bone transition-colors">Styles</a>
+          <a href="index.html#instagram" class="hover:text-bone transition-colors">Instagram</a>
+          <a href="index.html#about" class="hover:text-bone transition-colors">About</a>
+          <a href="index.html#book" class="hover:text-bone transition-colors">Book</a>
+          <a href="tel:+17373676146"
+             class="inline-flex items-center gap-2 rounded-full bg-blood px-5 py-2.5 text-bone hover:bg-blood-light transition-colors">
+            Call to Book
+          </a>
+        </nav>
+
+        <button id="menu-btn" type="button" class="md:hidden inline-flex items-center justify-center rounded-md p-2 text-bone hover:bg-ink-700" aria-label="Open menu" aria-expanded="false">
+          <svg id="menu-icon-open" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg>
+          <svg id="menu-icon-close" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="md:hidden hidden border-t border-ink-600 bg-ink-900/98 backdrop-blur-md">
+      <div class="space-y-1 px-4 py-4">
+        <a href="portfolio.html" class="mobile-link block rounded-lg px-3 py-3 text-sm font-medium uppercase tracking-wide text-bone hover:bg-ink-700">Portfolio</a>
+        <a href="index.html#styles" class="mobile-link block rounded-lg px-3 py-3 text-sm font-medium uppercase tracking-wide text-ash hover:bg-ink-700 hover:text-bone">Styles</a>
+        <a href="index.html#instagram" class="mobile-link block rounded-lg px-3 py-3 text-sm font-medium uppercase tracking-wide text-ash hover:bg-ink-700 hover:text-bone">Instagram</a>
+        <a href="index.html#about" class="mobile-link block rounded-lg px-3 py-3 text-sm font-medium uppercase tracking-wide text-ash hover:bg-ink-700 hover:text-bone">About</a>
+        <a href="index.html#book" class="mobile-link block rounded-lg px-3 py-3 text-sm font-medium uppercase tracking-wide text-ash hover:bg-ink-700 hover:text-bone">Book</a>
+        <a href="tel:+17373676146"
+           class="mt-2 flex items-center justify-center gap-2 rounded-full bg-blood px-5 py-3 text-sm font-medium uppercase tracking-wide text-bone hover:bg-blood-light">
+          Call (737) 367-6146
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="pt-28 sm:pt-32 pb-10 sm:pb-14 border-b border-ink-600 bg-ink-900">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <p class="text-blood text-xs font-medium tracking-[0.3em] uppercase mb-3">Gallery · Kempner, Texas</p>
+        <h1 class="font-display text-5xl sm:text-6xl md:text-7xl tracking-wide text-bone">PORTFOLIO</h1>
+        <p class="mt-4 max-w-xl text-ash">
+          Real tattoos by Des Gracia — realism, Japanese, traditional, fine line, portrait, lettering, and more.
+          Tap any piece to view larger. Filter by style below.
+        </p>
+
+        <div class="mt-8 flex flex-wrap gap-2" role="group" aria-label="Filter portfolio">
+          <button type="button" data-filter="all" class="filter-btn rounded-full border border-blood bg-blood px-4 py-2 text-xs font-medium uppercase tracking-wider text-bone transition-colors">All</button>
+          <button type="button" data-filter="realism" class="filter-btn rounded-full border border-ink-500 bg-transparent px-4 py-2 text-xs font-medium uppercase tracking-wider text-ash hover:border-blood hover:text-bone transition-colors">Realism</button>
+          <button type="button" data-filter="japanese" class="filter-btn rounded-full border border-ink-500 bg-transparent px-4 py-2 text-xs font-medium uppercase tracking-wider text-ash hover:border-blood hover:text-bone transition-colors">Japanese</button>
+          <button type="button" data-filter="traditional" class="filter-btn rounded-full border border-ink-500 bg-transparent px-4 py-2 text-xs font-medium uppercase tracking-wider text-ash hover:border-blood hover:text-bone transition-colors">Traditional</button>
+          <button type="button" data-filter="fine-line" class="filter-btn rounded-full border border-ink-500 bg-transparent px-4 py-2 text-xs font-medium uppercase tracking-wider text-ash hover:border-blood hover:text-bone transition-colors">Fine Line</button>
+          <button type="button" data-filter="portrait" class="filter-btn rounded-full border border-ink-500 bg-transparent px-4 py-2 text-xs font-medium uppercase tracking-wider text-ash hover:border-blood hover:text-bone transition-colors">Portrait</button>
+          <button type="button" data-filter="lettering" class="filter-btn rounded-full border border-ink-500 bg-transparent px-4 py-2 text-xs font-medium uppercase tracking-wider text-ash hover:border-blood hover:text-bone transition-colors">Lettering</button>
+          <button type="button" data-filter="blackwork" class="filter-btn rounded-full border border-ink-500 bg-transparent px-4 py-2 text-xs font-medium uppercase tracking-wider text-ash hover:border-blood hover:text-bone transition-colors">Blackwork</button>
+          <button type="button" data-filter="color" class="filter-btn rounded-full border border-ink-500 bg-transparent px-4 py-2 text-xs font-medium uppercase tracking-wider text-ash hover:border-blood hover:text-bone transition-colors">Color</button>
+          <button type="button" data-filter="illustrative" class="filter-btn rounded-full border border-ink-500 bg-transparent px-4 py-2 text-xs font-medium uppercase tracking-wider text-ash hover:border-blood hover:text-bone transition-colors">Illustrative</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 sm:py-14 bg-ink-900">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div id="gallery" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+
+          <!-- Gallery piece helper: same button structure throughout -->
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="japanese realism portrait color" data-title="Samurai Spirit" data-style="Japanese · Realism" data-src="assets/images/gallery-05.png">
+            <img src="assets/images/gallery-05.png" alt="Samurai oni helmet tattoo with cherry blossoms" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Samurai Spirit</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Japanese · Realism</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="realism portrait" data-title="Tiger Portrait" data-style="Realism · Portrait" data-src="assets/images/gallery-13.png">
+            <img src="assets/images/gallery-13.png" alt="Tiger portrait tattoo with name script" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Tiger Portrait</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Realism · Portrait</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="fine-line blackwork illustrative" data-title="Mountain Landscape" data-style="Fine Line · Blackwork" data-src="assets/images/gallery-03.png">
+            <img src="assets/images/gallery-03.png" alt="Fine line mountain landscape tattoo" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Mountain Landscape</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Fine Line · Blackwork</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="fine-line blackwork illustrative" data-title="Rivers &amp; Roots" data-style="Fine Line · Blackwork" data-src="assets/images/gallery-01.png">
+            <img src="assets/images/gallery-01.png" alt="Landscape tattoo with roots flowers and mountains" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Rivers &amp; Roots</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Fine Line · Blackwork</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="fine-line" data-title="Geometric Bloom" data-style="Fine Line" data-src="assets/images/gallery-02.png">
+            <img src="assets/images/gallery-02.png" alt="Fine line peony and geometric floral tattoo" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Geometric Bloom</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Fine Line</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="traditional color" data-title="Cross &amp; Roses" data-style="Traditional · Color" data-src="assets/images/gallery-04.png">
+            <img src="assets/images/gallery-04.png" alt="Color cross tattoo with roses and filigree" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Cross &amp; Roses</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Traditional · Color</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="realism illustrative" data-title="Heart of the Sleeve" data-style="Realism · Illustrative" data-src="assets/images/gallery-06.png">
+            <img src="assets/images/gallery-06.png" alt="Black and grey sleeve with heart lock and candle" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Heart of the Sleeve</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Realism · Illustrative</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="realism portrait" data-title="Veiled Serpent" data-style="Realism · Portrait" data-src="assets/images/gallery-07.png">
+            <img src="assets/images/gallery-07.png" alt="Black and grey portrait tattoo with snake and crown of thorns" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Veiled Serpent</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Realism · Portrait</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="fine-line" data-title="Floral Wrist" data-style="Fine Line · Ornamental" data-src="assets/images/gallery-08.png">
+            <img src="assets/images/gallery-08.png" alt="Fine line floral and ornamental wrist tattoo" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Floral Wrist</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Fine Line · Ornamental</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="fine-line blackwork" data-title="Butterfly Garden" data-style="Fine Line · Blackwork" data-src="assets/images/gallery-09.png">
+            <img src="assets/images/gallery-09.png" alt="Fine line butterfly and flowers arm tattoo" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Butterfly Garden</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Fine Line · Blackwork</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="color lettering" data-title="Daffodil Script" data-style="Color · Lettering" data-src="assets/images/gallery-10.png">
+            <img src="assets/images/gallery-10.png" alt="Color daffodil tattoo with script lettering" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Daffodil Script</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Color · Lettering</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="color lettering" data-title="Peony Tribute" data-style="Color · Lettering" data-src="assets/images/gallery-11.png">
+            <img src="assets/images/gallery-11.png" alt="Color peony and flowers with name lettering" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Peony Tribute</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Color · Lettering</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="realism color illustrative" data-title="Long Range Surveillance" data-style="Color Realism" data-src="assets/images/gallery-12.png">
+            <img src="assets/images/gallery-12.png" alt="Color American flag military tattoo" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Long Range Surveillance</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Color Realism</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="realism illustrative" data-title="Owl &amp; Lantern" data-style="Realism · Illustrative" data-src="assets/images/gallery-14.png">
+            <img src="assets/images/gallery-14.png" alt="Black and grey owl with lantern tattoo" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Owl &amp; Lantern</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Realism · Illustrative</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="lettering blackwork" data-title="Shape Your Reality" data-style="Lettering · Blackwork" data-src="assets/images/gallery-15.png">
+            <img src="assets/images/gallery-15.png" alt="Shape your Reality script tattoo with sun and clouds" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Shape Your Reality</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Lettering · Blackwork</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="fine-line blackwork illustrative" data-title="Phoenix Rising" data-style="Fine Line · Illustrative" data-src="assets/images/gallery-16.png">
+            <img src="assets/images/gallery-16.png" alt="Fine line phoenix tattoo with eye and moon symbols" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Phoenix Rising</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Fine Line · Illustrative</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="realism illustrative" data-title="Atlas &amp; the World" data-style="Realism" data-src="assets/images/work-02.jpg">
+            <img src="assets/images/work-02.jpg" alt="Black and grey Atlas holding the world back piece" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Atlas &amp; the World</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Realism</p>
+            </div>
+          </button>
+
+          <button type="button" class="gallery-item group relative aspect-[4/5] overflow-hidden rounded-sm bg-ink-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blood"
+                  data-category="realism portrait" data-title="Medusa" data-style="Realism · Portrait" data-src="assets/images/work-05.jpg">
+            <img src="assets/images/work-05.jpg" alt="Black and grey Medusa portrait tattoo" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-5 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+              <p class="font-display text-2xl tracking-wide">Medusa</p>
+              <p class="text-xs uppercase tracking-widest text-ash mt-1">Realism · Portrait</p>
+            </div>
+          </button>
+
+        </div>
+
+        <p class="mt-12 text-center text-sm text-ash max-w-lg mx-auto">
+          Follow
+          <a href="https://www.instagram.com/desgraciaink/" target="_blank" rel="noopener noreferrer" class="text-bone underline decoration-blood/50 underline-offset-4 hover:text-blood transition-colors">@desgraciaink</a>
+          and
+          <a href="https://www.facebook.com/des.gracia.520/photos" target="_blank" rel="noopener noreferrer" class="text-bone underline decoration-blood/50 underline-offset-4 hover:text-blood transition-colors">Facebook</a>
+          for more recent work.
+        </p>
+
+        <div class="mt-10 text-center">
+          <a href="index.html#book" class="inline-flex items-center gap-2 rounded-full bg-blood px-8 py-4 text-sm font-semibold uppercase tracking-wider text-bone hover:bg-blood-light transition-colors">
+            Book a Session
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-ink-600 bg-ink-950 py-12">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div class="text-center sm:text-left">
+          <p class="font-display text-2xl tracking-brand text-bone">DESGRACIA<span class="text-blood">INK</span></p>
+          <p class="mt-1 text-xs text-ash tracking-wide">Custom tattoos · Kempner, Texas · 20+ years</p>
+        </div>
+        <div class="flex items-center gap-5">
+          <a href="tel:+17373676146" class="text-ash hover:text-blood transition-colors" aria-label="Call">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/desgraciaink/" target="_blank" rel="noopener noreferrer" class="text-ash hover:text-blood transition-colors" aria-label="Instagram">
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/des.gracia.520" target="_blank" rel="noopener noreferrer" class="text-ash hover:text-blood transition-colors" aria-label="Facebook">
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+        </div>
+      </div>
+      <p class="mt-8 text-center text-[11px] text-ink-500 tracking-wide">
+        &copy; <span id="year"></span> DesGracia Ink. All rights reserved. Artwork remains property of the artist.
+      </p>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="fixed inset-0 z-[100] hidden items-center justify-center bg-ink-950/95 backdrop-blur-sm p-4" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button type="button" id="lightbox-close" class="absolute top-4 right-4 sm:top-6 sm:right-6 rounded-full border border-ink-500 p-2 text-bone hover:border-blood hover:text-blood transition-colors" aria-label="Close">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+    <button type="button" id="lightbox-prev" class="absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 rounded-full border border-ink-500 p-2 text-bone hover:border-blood hover:text-blood transition-colors" aria-label="Previous">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"/></svg>
+    </button>
+    <button type="button" id="lightbox-next" class="absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 rounded-full border border-ink-500 p-2 text-bone hover:border-blood hover:text-blood transition-colors" aria-label="Next">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+    </button>
+    <div class="max-w-5xl w-full flex flex-col items-center">
+      <img id="lightbox-img" src="" alt="" class="max-h-[75vh] w-auto max-w-full object-contain rounded-sm shadow-2xl" />
+      <div class="mt-4 text-center">
+        <p id="lightbox-title" class="font-display text-2xl tracking-wide text-bone"></p>
+        <p id="lightbox-style" class="text-xs uppercase tracking-widest text-ash mt-1"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
